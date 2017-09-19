@@ -1,0 +1,5 @@
+Jenga:
+    1. shoot the blocks out of place instead of grabbing with hands
+    2. different colored blocks will do different things (colors: red, green, blue)
+        * For myself, I would like to have my color blocks cause the next person's pointer to sway left and right on the screen (forcing them to perfectly time their shot)
+    3. lower blocks may require multiple shots to be taken out
