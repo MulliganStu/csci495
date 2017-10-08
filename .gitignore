@@ -1,3 +1,5 @@
 #folders to ignore
 moodle_submissions/
 unity_testing/
+jenga/Library/metadata
+jenga/Library/ShaderCache
