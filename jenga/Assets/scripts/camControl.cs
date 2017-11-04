@@ -16,7 +16,7 @@ public class camControl : MonoBehaviour {
 		if (target != null) {
 			transform.LookAt (target.transform);
 			if (orbitY) {
-				transform.RotateAround (target.transform.position, Vector3.up, Time.deltaTime * 5);
+				transform.RotateAround (target.transform.position, Vector3.up, Time.deltaTime * 10);
 			}
 		}
 
