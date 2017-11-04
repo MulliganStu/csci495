@@ -4,3 +4,5 @@ unity_testing/
 jenga/Library/metadata
 jenga/Library/ShaderCache
 jenga/Temp/
+.DS_Store
+
