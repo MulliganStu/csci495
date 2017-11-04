@@ -1337,5 +1337,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75744f6bc3b9e4cb8b938addf7e6495b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceSpringConstant: 100
-  magnetDistance: 3
+  forceSpringConstant: 275
+  magnetDistance: 4
