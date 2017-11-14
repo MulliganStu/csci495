@@ -42,6 +42,8 @@ public class MagneticPinch : MonoBehaviour {
       Vector3 new_distance = pinch_position - close_things[j].transform.position;
       if (close_things[j].GetComponent<Rigidbody>() != null && new_distance.magnitude < distance.magnitude &&
           !close_things[j].transform.IsChildOf(transform)) {
+      			//Makes the chime happen when pinched
+                GetComponent<AudioSource>().Play();
         grabbed_ = close_things[j];
         distance = new_distance;
       }
@@ -87,6 +89,7 @@ public class MagneticPinch : MonoBehaviour {
     // Only change state if it's different.
     if (trigger_pinch && !pinching_)
       OnPinch(pinch_position);
+
     else if (!trigger_pinch && pinching_)
       OnRelease();
 
